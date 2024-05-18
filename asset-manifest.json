@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/netflixx/static/css/main.ef51bb4f.css",
+    "main.css": "/netflixx/static/css/main.9d3e1b5a.css",
     "main.js": "/netflixx/static/js/main.7f861fe0.js",
     "reactPlayerYouTube.js": "/netflixx/static/js/reactPlayerYouTube.1e94d635.chunk.js",
     "reactPlayerSoundCloud.js": "/netflixx/static/js/reactPlayerSoundCloud.5f7b1100.chunk.js",
@@ -19,7 +19,7 @@
     "static/js/453.cbad068e.chunk.js": "/netflixx/static/js/453.cbad068e.chunk.js",
     "static/media/logo.png": "/netflixx/static/media/logo.ce059266a874af90325e.png",
     "index.html": "/netflixx/index.html",
-    "main.ef51bb4f.css.map": "/netflixx/static/css/main.ef51bb4f.css.map",
+    "main.9d3e1b5a.css.map": "/netflixx/static/css/main.9d3e1b5a.css.map",
     "main.7f861fe0.js.map": "/netflixx/static/js/main.7f861fe0.js.map",
     "reactPlayerYouTube.1e94d635.chunk.js.map": "/netflixx/static/js/reactPlayerYouTube.1e94d635.chunk.js.map",
     "reactPlayerSoundCloud.5f7b1100.chunk.js.map": "/netflixx/static/js/reactPlayerSoundCloud.5f7b1100.chunk.js.map",
@@ -38,7 +38,7 @@
     "453.cbad068e.chunk.js.map": "/netflixx/static/js/453.cbad068e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef51bb4f.css",
+    "static/css/main.9d3e1b5a.css",
     "static/js/main.7f861fe0.js"
   ]
 }
