@@ -1,0 +1,109 @@
+.outer-header {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 0 30px;
+  align-items: center;
+  margin: auto;
+  max-width: 100%;
+  background-color: #1a1a1a;
+}
+
+.left-header > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 590px;
+}
+
+.right-header > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.netflex-logo > img {
+  height: 15vh;
+}
+
+li, .menuicon {
+  list-style: none;
+  justify-content: space-between;
+  transition: 350ms;
+  cursor: pointer;
+  color: white;
+}
+
+.navbar .hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.navbar .hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  
+
+  .navbar .nav-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    background-color: #333;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .navbar .nav-links.active {
+    transform: translateX(0);
+  }
+
+  .navbar .nav-links li {
+    margin: 20px 0;
+  }
+
+  .navbar .hamburger {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .left-header, .right-header {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menuicon, .logoSmScrin {
+    display: none;
+  }
+}
+
+/* Animations for the hamburger menu */
+.navbar .hamburger.active .line:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.navbar .hamburger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar .hamburger.active .line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.navbar .nav-links.active {
+  transform: translateX(0);
+}

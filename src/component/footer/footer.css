@@ -1,0 +1,95 @@
+.footer{
+    width: 100%;
+}
+.footerFirstDiv{
+    margin: auto;
+    /* width: 980px; */
+}
+.socialMidiya>ul{
+    display: flex;
+    flex-direction: row;
+}
+.socialMidiya>ul>li{
+   margin-right: 15px;
+}
+.footerNave{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footerNave>div>ul>li{
+    margin-bottom: 5px;
+    font-size: small;
+    color: rgb(136, 136, 136);;
+}
+
+
+/* Ensure the footer takes the full height of the viewport and centers its content */
+
+  
+  /* Center each row horizontally */
+  .footerNave > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0; /* Optional spacing between rows */
+  }
+  
+  /* Center the items within each list */
+  .footerNave ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .smi{
+display: inline-block;
+  }
+
+ 
+  
+ 
+  
+
+
+@media (max-width: 768px){
+    .footerNave{
+     display:grid ;
+     grid-template-columns: repeat(1, 1fr);
+     grid-gap: 10px;
+     align-items: center;
+     justify-content: center;
+     width: auto;
+
+    }
+    li {
+        font-size: large !important;
+      }
+      
+  
+ }
+ @media (min-width: 768px) and (max-width: 1023px){
+    .footerNave{
+        display:grid ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        li
+         {
+            font-size: large !important;
+          }
+   
+       }  
+       li {
+        font-size: large;
+       }
+ }
+ @media (min-width: 1024px){
+   .menuicon{
+     display: none;
+   }  
+ }
