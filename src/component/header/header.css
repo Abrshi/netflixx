@@ -64,6 +64,10 @@ li, .menuicon {
     align-items: center;
     transform: translateX(100%);
     transition: transform 0.4s ease-in-out;
+
+  }
+  .right-header{
+    display: none;
   }
 
   .navbar .nav-links.active {
